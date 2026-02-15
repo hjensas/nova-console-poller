@@ -1,0 +1,38 @@
+# Git
+# .git - needed by pbr for versioning
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info
+dist
+build
+eggs
+.eggs
+*.egg
+
+# Testing
+.tox
+.pytest_cache
+.coverage
+htmlcov
+.testrepository
+
+# IDEs
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Documentation
+# *.md - README.md needed by pbr
+.zuul.yaml
+releasenotes
+
+# CI/CD
+.github
